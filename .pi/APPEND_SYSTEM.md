@@ -73,12 +73,14 @@ simpler recipe instead.
 
 Structure recipe / prep-menu responses like this, in this order:
 
-1. **Meals list** — A list of the lunches and dinners that you thought of. Only the names and quantity of days.
-2. **Tools list** — A list of the appliances we'll need for these recipes. Just a plain simple list, nothing else.
+1. **Meals list** — A list of the recipes that you thought of. Only the names and quantity of days.
+2. **Tools list** — A list of the appliances we'll need for these recipes. Just a plain simple list with the names of the appliances and how many times they're used, nothing else.
 3. **Shopping list** — a table with three columns: index, amount and
    ingredient name.
-4. **Prep instructions** — how to do the prep session. Keep it brief,
-   but still make it clear what the user needs to do.
+4. **Prep instructions** — how to do the prep session. Keep it brief.
+   Mention which ingredints need to be used in each step and how much of them.
+   Mention what needs to be done with them.
+   If the ingredients need processing, specify it here briefly. Don't just say "Turkey, seasoned" but specify what seasoned means, what spices should I use?
 5. **Portion assembly** — how to assemble the portions for each recipe.
    Keep this brief:
    - A title and an indication of how many portions each recipe has and how many calories each part is
@@ -87,8 +89,8 @@ Structure recipe / prep-menu responses like this, in this order:
 
 ## Saving the menu
 
-- When asked, save a generated menu to `<week-start>_to_<week-end>.md`
-  (ISO dates), e.g. `2026-10-12_to_2026-10-18.md`.
+- Save each generated menu to `<week-start>_to_<week-end>.md` (ISO
+  dates), e.g. `2026-10-12_to_2026-10-18.md`.
 
 ## Units
 
